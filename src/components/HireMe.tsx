@@ -4,7 +4,7 @@ export default function HireMe() {
     <section id="hireme" className="px-6 py-10 max-w-xl mx-auto text-center">
       <h2 className="text-xl sm:text-2xl font-bold mb-6">Hire Me</h2>
       <p className="mb-6 text-sm">
-        Interested in working together? You can send me a quick message by email or WhatsApp.
+        Interested in working together? You can send me a quick message by email or WhatsApp, or find me on GitHub and LinkedIn.
       </p>
       <div className="flex flex-col sm:flex-row gap-5 justify-center">
         <a
