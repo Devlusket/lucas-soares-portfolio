@@ -35,7 +35,7 @@ export default function HireMe() {
           rel="noopener noreferrer"
           className="bg-blue-800 text-white px-4 py-2 rounded font-bold hover:bg-blue-600"
         >
-         Here's my LinkedIn
+         Here is my LinkedIn
         </a>
       </div>
     </section>
