@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="pt-BR">
-      <body className={`${firaCode.className} bg-background text-white`}>
+      <body className={`${firaCode.className} bg-background text-white scroll-smooth`}>
         {children}
       </body>
     </html>

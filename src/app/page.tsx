@@ -11,9 +11,9 @@ export default function Home() {
     <main className="font-mono bg-background min-h-screen bg-indigo-950 text-white">
       <Header />
       <Hero />
-      <About />
-      <Technologies />
       <Projects />
+      <Technologies />
+      <About />
       <HireMe />
       <Footer />
     </main>

@@ -6,12 +6,12 @@ export default function HireMe() {
       <p className="mb-6 text-sm">
         Interested in working together? You can send me a quick message by email or WhatsApp.
       </p>
-      <div className="flex flex-col sm:flex-row gap-4 justify-center">
+      <div className="flex flex-col sm:flex-row gap-5 justify-center">
         <a
           href="mailto:lucasoaresdev@hotmail.com"
-          className="bg-white text-black px-4 py-2 rounded font-bold hover:bg-gray-200"
+          className="bg-red-500 text-white px-4 py-2 rounded font-bold hover:bg-red-600"
         >
-          Send Email
+          Send me an Email
         </a>
         <a
           href="https://wa.me/5533984051527" // ex: 55 + DDD + número

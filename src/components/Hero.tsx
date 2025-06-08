@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="text-center py-10 px-4">
+    <section id="header" className="text-center py-25 px-4">
       <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold leading-snug text-white">
         Welcome! <br /> I’m Lucas Soares <br /> Web Developer
       </h1>
