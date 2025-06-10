@@ -9,7 +9,7 @@ const techs = [
   { name: "Node.js", file: "nodejs.png" },
   { name: "Canva", file: "canva.png" },
   { name: "Vite", file: "vite.svg" },
-  { name: "npm", file: "npm.svg" },
+  { name: "Supabase", file: "supabase.svg" },
   { name: "Vue.js", file: "vue-js.svg" },
   { name: "Angular", file: "angular.png" },
   { name: "HTML", file: "html.png" },

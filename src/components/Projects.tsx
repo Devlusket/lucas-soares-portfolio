@@ -140,7 +140,7 @@ export default function Projects() {
       id: 3,
       title: "Lista de Tarefas",
       description:
-        "Gerenciador de metas feito com React e Next.js, focado em interatividade e responsividade. Interface criada com Tailwind. Backend feito com ajuda de IA, incluindo rotas de API, persistência de dados e correção de erros. Todo o frontend foi desenvolvido por mim, com design e funcionalidades interativas.",
+        "Gerenciador de metas feito com React e Next.js, focado em interatividade e responsividade. Interface criada com Tailwind. Agora integrado ao Supabase como backend real, com API construída via rotas do Next.js (pages/api) e controle das operações (insert, select, update, delete) diretamente no banco de dados. Totalmente responsivo, com modo claro e escuro.",
       image: "/images/metas.png",
       liveUrl: "https://todo-list-two-pi-38.vercel.app/",
       codeUrl: "https://github.com/Devlusket/todo-list-v3-project",
