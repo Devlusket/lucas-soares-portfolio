@@ -57,7 +57,8 @@ export default function Header() {
         {/* Menu só visível em telas médias ou maiores */}
         <nav className="hidden md:flex space-x-6 font-bold text-indigo-800 text-xl">
           <a
-            href="https://drive.google.com/uc?export=view&id=1dDqCmWwAoMlP0EH-_daCfEZrR8lTmTw1"
+            // href="https://drive.google.com/uc?export=view&id=1dDqCmWwAoMlP0EH-_daCfEZrR8lTmTw1"
+            href="https://drive.google.com/file/d/1EQACj1fZhRAYXtYrvXw6TDL2el5TqxmC/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:underline hover:text-indigo-600"
