@@ -52,6 +52,14 @@ export default function HireMe() {
       </p>
       <div className="flex flex-col sm:flex-row gap-5 justify-center">
         <a
+          href="https://drive.google.com/file/d/1EQACj1fZhRAYXtYrvXw6TDL2el5TqxmC/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-white text-black px-4 py-2 rounded font-bold hover:bg-gray-300"
+        >
+          Veja o meu Currículo
+        </a>
+        <a
           href="mailto:lucasoaresdev@hotmail.com"
           className="bg-red-500 text-white px-4 py-2 rounded font-bold hover:bg-red-600"
         >
