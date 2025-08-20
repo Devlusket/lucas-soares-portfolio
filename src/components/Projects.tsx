@@ -138,7 +138,7 @@ export default function Projects() {
     },
     {
       id: 3,
-      title: "Lista de Tarefas",
+      title: "Aplicativo de Metas",
       description:
         "Gerenciador de metas feito com React e Next.js, focado em interatividade e responsividade. Interface criada com Tailwind. Agora integrado ao Supabase como backend real, com API construída via rotas do Next.js (pages/api) e controle das operações (insert, select, update, delete) diretamente no banco de dados. Totalmente responsivo, com modo claro e escuro.",
       image: "/images/metas.png",
