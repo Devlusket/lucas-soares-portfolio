@@ -122,7 +122,7 @@ export default function Projects() {
       id: 1,
       title: "Aplicativo de Despesas",
       description:
-        "Aplicativo pessoal de controle de despesas desenvolvido com Next.js e TypeScript, com design em Tailwind CSS. Permite adicionar, listar, marcar como pago e excluir despesas. Agora integrado ao Supabase como backend real, com API construída via rotas do Next.js (pages/api) e controle das operações (insert, select, update, delete) diretamente no banco de dados. Totalmente responsivo, com modo claro e escuro.",
+        "Aplicativo pessoal de controle de despesas desenvolvido com Next.js e TypeScript, com design em Tailwind CSS. Permite adicionar, listar, marcar como pago e excluir despesas. Agora integrado ao Supabase / PostgreSQL e Prisma, com API construída via rotas do Next.js (pages/api) e controle das operações (insert, select, update, delete) diretamente no banco de dados. Totalmente responsivo, com modo claro e escuro.",
       image: "/images/despesasv2.png",
       liveUrl: "https://expenses-app-project.vercel.app/",
       codeUrl: "https://github.com/Devlusket/expenses-project",
@@ -140,7 +140,7 @@ export default function Projects() {
       id: 3,
       title: "Aplicativo de Metas",
       description:
-        "Gerenciador de metas feito com React e Next.js, focado em interatividade e responsividade. Interface criada com Tailwind. Agora integrado ao Supabase como backend real, com API construída via rotas do Next.js (pages/api) e controle das operações (insert, select, update, delete) diretamente no banco de dados. Totalmente responsivo, com modo claro e escuro.",
+        "Gerenciador de metas feito com React e Next.js, focado em interatividade e responsividade. Interface criada com Tailwind. Agora integrado ao Supabase / PostgreSQL e Prisma, com API construída via rotas do Next.js (pages/api) e controle das operações (insert, select, update, delete) diretamente no banco de dados. Totalmente responsivo, com modo claro e escuro.",
       image: "/images/metas.png",
       liveUrl: "https://todo-list-two-pi-38.vercel.app/",
       codeUrl: "https://github.com/Devlusket/todo-list-v3-project",
