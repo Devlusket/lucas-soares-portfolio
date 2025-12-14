@@ -1,121 +1,3 @@
-// // export default function Projects() {
-// //   const projects = [1, 2, 3];
-
-// //   return (
-// //     <section id="projects" className="px-6 py-10 text-center">
-// //       <h2 className="text-xl sm:text-2xl font-bold mb-8 text-white">
-// //         Here are some of my most recent projects
-// //       </h2>
-// //       <div className="bg-gray-500 rounded-lg p-2 mb-4 justify-center">
-// //       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-// //         {projects.map((project) => (
-// //           <div key={project} className="bg-header text-white p-4 rounded-xl">
-// //             <div className="bg-black h-72 rounded-md mb-4" />
-// //             <h3 className="text-lg font-bold mb-2">project {project}</h3>
-// //             <p className="text-base">
-// //               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, inventore. Doloribus, adipisci ad? Doloribus corrupti reiciendis quis debitis, ducimus odio incidunt, doloremque eum cupiditate laborum nam iure eveniet inventore ut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente laborum autem fugit architecto necessitatibus dolor reiciendis quo reprehenderit voluptatum impedit, unde accusamus, perferendis distinctio nobis alias voluptate quia optio eum.
-// //             </p>
-// //             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-// //         <a
-// //           href="https://www.linkedin.com/in/devlusket/"
-// //           target="_blank"
-// //           rel="noopener noreferrer"
-// //           className="bg-indigo-800 text-white px-4 py-2 rounded font-bold hover:bg-indigo-700"
-// //         >
-// //          Go to project
-// //         </a>
-// //         <a
-// //           href="https://www.linkedin.com/in/devlusket/"
-// //           target="_blank"
-// //           rel="noopener noreferrer"
-// //           className="bg-indigo-800 text-white px-4 py-2 rounded font-bold hover:bg-indigo-700"
-// //         >
-// //          See the code
-// //         </a>
-// //             </div>
-// //           </div>
-// //         ))}
-// //       </div>
-// //       </div>
-// //     </section>
-// //   );
-// // }
-
-// export default function Projects() {
-//   const projects = [
-//     {
-//       id: 1,
-//       title: "Expenses App",
-//       description:
-//         "This project is a personal expense tracking app, developed using Next.js with TypeScript for the frontend, ensuring a more robust and typed code. The design was done with Tailwind CSS, providing a clean, responsive and easy-to-maintain interface. The app includes features to add, list, mark as paid and delete expenses. The backend part was developed with the help of ChatGPT, using Node.js, manipulating data stored in a JSON file. The API allows GET, POST, PUT and DELETE operations, allowing interaction with expenses. The application was designed to be responsive, adjusting to different screen sizes, from mobile devices to desktops. Light and dark modes were implemented to improve the user experience. As a frontend programmer still in the learning process, I used the most modern and efficient technologies to create this app, taking advantage of the best development and architecture practices to ensure a pleasant and efficient experience for the user.",
-//       image: "/images/despesasv2.png",
-//       liveUrl: "https://expenses-app-project.vercel.app/",
-//       codeUrl: "https://github.com/Devlusket/expenses-project",
-//     },
-//     {
-//       id: 2,
-//       title: "Power Rangers Quiz",
-//       description:
-//         "Personal project developed with React, Next.js, Tailwind CSS and TypeScript. I used json-server to simulate a local API during development. For deployment on Vercel, the data was migrated to the frontend for compatibility. The quiz includes scoring logic, answer shuffling and result with final image. The project was created to test my skills in React and Next.js, focusing on creating a fun and interactive experience for users. The design was customized with Tailwind CSS to ensure a modern and responsive interface. The quiz is fully functional, allowing users to answer questions about the Power Rangers universe and receive a final score based on their performance. ",
-//       image: "/images/powerrangers.png",
-//       liveUrl: "https://powerrangersquiz.vercel.app/",
-//       codeUrl: "https://github.com/Devlusket/pr-quiz-ts-next-project",
-//     },
-//     {
-//       id: 3,
-//       title: "Todo List App",
-//       description:
-//         "This project was developed using React and Next.js, with a focus on creating an interactive and responsive goal manager. As a Frontend developer, I was responsible for implementing the user interface, ensuring that the experience was intuitive and enjoyable. The visual structure and interactivity of the application was built in a modular way, using React to manage components efficiently, in addition to customizing the design with Tailwind CSS for a modern and clean aesthetic. With the help of AI, I was able to configure and optimize the API routes, implement goal persistence in the database, and fix integration errors between the Frontend and Backend. AI also helped me better understand the data flows between the application layers and improve the logic for handling data sent and received by the API. In this way, the Frontend part was entirely developed by me, including design and interactive features. The Backend/API part was implemented based on my interaction with AI",
-//       image: "/images/metas.png",
-//       liveUrl: "https://todo-list-two-pi-38.vercel.app/",
-//       codeUrl: "https://github.com/Devlusket/todo-list-v3-project",
-//     },
-//   ];
-
-//   return (
-//     <section id="projects" className="px-6 py-25 text-center">
-//       <h2 className="text-xl sm:text-2xl font-bold mb-8 text-white">
-//         Here are some of my most recent projects
-//       </h2>
-//       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-//         {projects.map((project) => (
-//           <div
-//             key={project.id}
-//             className=" bg-indigo-800/50 text-white p-4 rounded-xl shadow-md flex flex-col"
-//           >
-//             <img
-//               src={project.image}
-//               alt={project.title}
-//               className="h-78 object-cover rounded-md mb-4"
-//             />
-//             <h3 className="text-lg font-bold mb-2">{project.title}</h3>
-//             <p className="text-sm text-left">{project.description}</p>
-//             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4 mt-auto">
-//               <a
-//                 href={project.liveUrl}
-//                 target="_blank"
-//                 rel="noopener noreferrer"
-//                 className="bg-indigo-800 text-white px-4 py-2 rounded font-bold hover:bg-indigo-700"
-//               >
-//                 Go to project
-//               </a>
-//               <a
-//                 href={project.codeUrl}
-//                 target="_blank"
-//                 rel="noopener noreferrer"
-//                 className="bg-indigo-800 text-white px-4 py-2 rounded font-bold hover:bg-indigo-700"
-//               >
-//                 See the code
-//               </a>
-//             </div>
-//           </div>
-//         ))}
-//       </div>
-//     </section>
-//   );
-// }
-
-
 export default function Projects() {
   const projects = [
     {
@@ -137,14 +19,33 @@ export default function Projects() {
       codeUrl: "https://github.com/Devlusket/pr-quiz-ts-next-project",
     },
     {
-      id: 3,
-      title: "Aplicativo de Metas",
-      description:
-        "Gerenciador de metas feito com React e Next.js, focado em interatividade e responsividade. Interface criada com Tailwind. Agora integrado ao Supabase / PostgreSQL e Prisma, com API construída via rotas do Next.js (pages/api) e controle das operações (insert, select, update, delete) diretamente no banco de dados. Totalmente responsivo, com modo claro e escuro.",
-      image: "/images/metas.png",
-      liveUrl: "https://todo-list-two-pi-38.vercel.app/",
-      codeUrl: "https://github.com/Devlusket/todo-list-v3-project",
-    },
+    id: 1, // Dando prioridade máxima, se a lista for ordenada.
+    title: "Plataforma SaaS de Agendamento Online Multi-tenant",
+    description: `
+    Uma Plataforma SaaS Multi-tenant de Agendamento Online que já está em produção e atendendo usuários ativos. Este projeto foi uma verdadeira imersão em arquitetura escalável e segurança de dados.
+        Front-end & Back-end: Next.js 14 (App Router) , React e Javascript/Typescript.
+Banco de Dados: PostgreSQL (Supabase) com Prisma ORM para modelagem relacional.
+Estilização: Tailwind CSS e Shadcn/ui  (Componentes) para uma interface responsiva e acessível.
+A escolha da arquitetura Serverless foi fundamental para a escalabilidade e o baixo custo operacional:
+Deploy e CI/CD: Utilização da Vercel para hospedagem, garantindo uma pipeline de Integração Contínua e Entrega Contínua (CI/CD).
+Otimização de Banco de Dados: Solucionei o desafio da exaustão de conexões no ambiente Serverless configurando o Connection Pooling via PgBouncer. Isso garante que o banco de dados PostgreSQL suporte picos de acesso sem falhar.
+Segurança de Dados (RLS): Implementação de Row-Level Security (RLS) no Supabase, assegurando o isolamento total dos dados e controlando o acesso granular entre Clientes, Profissionais e Funcionários  uma camada de segurança essencial em um SaaS Multi-tenant.
+Armazenamento em Nuvem: Uso do Vercel Blob Storage para upload e gerenciamento eficiente das imagens de perfil e portfólio dos estabelecimentos.
+Portfólio Dinâmico: O profissional tem total liberdade para alterar a grade de serviços, descrição e fazer a mudança dinâmica de dados do estabelecimento.
+Agendamento Inteligente: Sistema de criação de horários dinâmicos semanais  com validação de conflitos em tempo real.
+Autenticação Segura: Login social via Google OAuth 2.0 (NextAuth.js) para uma experiência de cadastro rápida e segura.
+Automação Crítica (Cron Jobs): Configurei rotinas automáticas (Vercel Cron Jobs) para a limpeza sanitária de horários expirados no banco de dados.
+Comunicação Transacional: Integração de serviços para confirmação de agendamentos via WhatsApp e Email Transacional.
+Timezones: Resolução da complexidade de manipular fusos horários (Timezones)  para que a plataforma mostre a hora correta tanto para o profissional quanto para o cliente em diferentes regiões.
+    `,
+    image: "/images/MeusAgendamentosAreaCliente.png",
+    liveUrl: "https://meu-agendamento.vercel.app/", 
+    codeUrl: "Repositório Privado (Propriedade Intelectual)", 
+    stack: [
+        "Next.js 14 (App Router)", "React/TypeScript", "PostgreSQL (Supabase)", 
+        "Prisma ORM", "Tailwind CSS", "Vercel Serverless", "RLS", "PgBouncer"
+    ]
+}
   ];
 
   return (
