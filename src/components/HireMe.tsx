@@ -52,7 +52,7 @@ export default function HireMe() {
       </p>
       <div className="flex flex-col sm:flex-row gap-5 justify-center">
         <a
-          href="mailto:lucasoaresdev@hotmail.com"
+          href="mailto:tsuunakage@gmail.com"
           className="bg-red-500 text-white px-4 py-2 rounded font-bold hover:bg-red-600"
         >
           Me envie um E-mail
